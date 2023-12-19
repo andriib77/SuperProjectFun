@@ -20,11 +20,11 @@ public class Bag {
         this.isLoaded = false;
         this.destination = destination;
         this.status = "Not Checked";
-     //TODO   this.isIssued = isIssued;
+        this.isIssued = isIssued;
 
     }
     //TODO
-    public Bag(String trackingNumber, String baggageType, double weight, boolean isChecked, boolean isLoaded, String destination, String status, boolean isIssued) {
+    /*public Bag(String trackingNumber, String baggageType, double weight, boolean isChecked, boolean isLoaded, String destination, String status, boolean isIssued) {
         this.trackingNumber = trackingNumber;
         this.baggageType = baggageType;
         this.weight = weight;
@@ -33,7 +33,7 @@ public class Bag {
         this.destination = destination;
         this.status = status;
         this.isIssued = isIssued;
-    }
+    }*/
 
     public String getTrackingNumber() {
         return trackingNumber;

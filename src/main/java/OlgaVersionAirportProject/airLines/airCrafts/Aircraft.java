@@ -1,6 +1,6 @@
-package OlgaVersionAirportProject;
+package OlgaVersionAirportProject.airLines.airCrafts;
 
-public class Airflight { //для пассажирских, грузовых, частных и военных самолетов
+public class Aircraft { //для пассажирских, грузовых, частных и военных самолетов
     private TypeOfAircraft typeOfAircraft;
     private String model;
 
@@ -24,13 +24,13 @@ public class Airflight { //для пассажирских, грузовых, ч
     private int passengerCapacity;  // вместимость
     private int crewTeam;
 
-    public Airflight(TypeOfAircraft typeOfAircraft, String model, String owner_AirflightCompany,
-                     int lifeTime, int runwayLength, int length,
-                     int width, int height, int cargoLength,
-                     int cargoWidth, int cargoHeight, int maxRangeWithLoad,
-                     int ferryRange, int cruiseSpeed, int maxSpeed,
-                     int maxTakeoffWeight, int maxPayload, int maxFuelWeight,
-                     int passengerCapacity, int i, int i1, int i2, int i3, int i4)
+    public Aircraft(TypeOfAircraft typeOfAircraft, String model, String owner_AirflightCompany,
+                    int lifeTime, int runwayLength, int length,
+                    int width, int height, int cargoLength,
+                    int cargoWidth, int cargoHeight, int maxRangeWithLoad,
+                    int ferryRange, int cruiseSpeed, int maxSpeed,
+                    int maxTakeoffWeight, int maxPayload, int maxFuelWeight,
+                    int passengerCapacity, int i, int i1, int i2, int i3, int i4)
     {
         this.typeOfAircraft = typeOfAircraft;
         this.model = model;
@@ -54,7 +54,7 @@ public class Airflight { //для пассажирских, грузовых, ч
         this.crewTeam = crewTeam;
     }
 
-    public Airflight(String s, int i, int lifeTime, int runwayLength, int length, TypeOfAircraft typeOfAircraft) {
+    public Aircraft(String s, int i, int lifeTime, int runwayLength, int length, TypeOfAircraft typeOfAircraft) {
     }
 
     public TypeOfAircraft getTypeOfAircraft() {

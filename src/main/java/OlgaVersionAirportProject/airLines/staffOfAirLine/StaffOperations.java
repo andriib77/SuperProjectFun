@@ -1,14 +1,14 @@
-package OlgaVersionAirportProject.airflightCompanies;
+package OlgaVersionAirportProject.airLines.staffOfAirLine;/*package Airport.OlgaVersionAirportProject.airLines.staffOfAirLine;
 
 
 import java.util.ArrayList;
 import java.util.EnumMap;
 
-public class Staff {
+public class StaffOperations {
 
         private EnumMap<StaffDepartment, ArrayList<Employee>> departmentEmployees;
 
-        public Staff() {
+        public StaffOperations() {
             this.departmentEmployees = new EnumMap<>(StaffDepartment.class);
             initializeDepartments();
         }
@@ -61,4 +61,4 @@ public class Staff {
             return totalStaff;
         }
 
-    }
+    }*/

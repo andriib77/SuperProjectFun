@@ -1,24 +1,26 @@
-package OlgaVersionAirportProject.airflightCompanies;
+package OlgaVersionAirportProject.AirLine;/*
+//package Airport.OlgaVersionAirportProject.AirLine;
 
-import OlgaVersionAirportProject.AirflighttPark;
+ //import Airport.OlgaVersionAirportProject.airLines.staffOfAirLine.StaffOperations;
+//import Airport.OlgaVersionAirportProject.airLines.airCrafts.AirCraftPark;
 
-public class AirflightCompany {
+/*public class AirflightCompany {
 
-    private String nameOfCompany;
+   / private String nameOfCompany;
     private String specialisation;
     private String flightsNetwork;
     private String flightTypes;
-    private Staff staff;
+   // private StaffOperations staff;
     private int foreignAirportOffices;
     private int airFlightPark;
-    private AirflighttPark airflighttPark;
+    private AirCraftPark airflighttPark;
 
     public AirflightCompany() {
         this.nameOfCompany = nameOfCompany;
         this.specialisation = specialisation;
         this.flightsNetwork = flightsNetwork;
         this.flightTypes = flightTypes;
-        this.staff = staff;
+      //  this.staff = staff;
         this.foreignAirportOffices = foreignAirportOffices;
         this.airFlightPark = airFlightPark;
         this.airflighttPark = airflighttPark;
@@ -59,11 +61,11 @@ public class AirflightCompany {
         this.flightTypes = flightTypes;
     }
 
-    public Staff getStaff() {
+/*    public StaffOperations getStaff() {
         return staff;
     }
 
-    public void setStaff(Staff staff) {
+    public void setStaff(StaffOperations staff) {
         this.staff = staff;
     }
 
@@ -96,4 +98,8 @@ public class AirflightCompany {
                 ", foreignAirportOffices=" + foreignAirportOffices +
                 '}';
     }
+
+    public static class AllAirflightCompanies {
+    }
 }
+*/

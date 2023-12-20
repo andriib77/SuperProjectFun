@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airflightCompanies;
+package OlgaVersionAirportProject.airLines.staffOfAirLine;/*package Airport.OlgaVersionAirportProject.airLines.staffOfAirLine;
 
 public class StaffFlightCompanyTest {
  /*   public static void main(String[] args) {
@@ -50,9 +50,9 @@ public class StaffFlightCompanyTest {
         System.out.println("Status of Director: "
                 + staff.getEmployeeStatus(director));*/
 
-    public static void main(String[] args) {
+ /*   public static void main(String[] args) {
         // Create staff instance
-        Staff staff = new Staff();
+        StaffOperations staff = new StaffOperations();
 
         // Create employees in different departments
         Employee director = new Employee(StaffDepartment.MANAGEMENT, "Jane Doe", 45, "Director", "MBA");
@@ -87,4 +87,3 @@ public class StaffFlightCompanyTest {
         System.out.println("Status of Director: " + staff.getEmployeeStatus(director));
         System.out.println("Status of Pilot: " + staff.getEmployeeStatus(pilot)); // The pilot is ON_DUTY
     }*/
-}}

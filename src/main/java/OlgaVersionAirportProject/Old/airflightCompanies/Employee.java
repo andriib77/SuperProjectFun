@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airflightCompanies;
+package OlgaVersionAirportProject.Old.airflightCompanies;
 
 public class Employee {
     private StaffDepartment staffDepartment;

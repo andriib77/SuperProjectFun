@@ -1,8 +1,7 @@
 package OlgaVersionAirportProject.airLines.airLine;
 
-import Airport.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
+import OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
 
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

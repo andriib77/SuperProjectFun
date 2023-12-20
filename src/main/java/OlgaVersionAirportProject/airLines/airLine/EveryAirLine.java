@@ -1,9 +1,8 @@
 package OlgaVersionAirportProject.airLines.airLine;
 
-import Airport.OlgaVersionAirportProject.airLines.airCrafts.AirCraftPark;
-import Airport.OlgaVersionAirportProject.airLines.airCrafts.TypeOfAircraft;
-import Airport.OlgaVersionAirportProject.airLines.service.ServiceOfAirLine;
-import Airport.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
+import OlgaVersionAirportProject.airLines.airCrafts.TypeOfAircraft;
+import OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
+import OlgaVersionAirportProject.airLines.service.ServiceOfAirLine;
 
 public class EveryAirLine {
     private String idOfAirLine;

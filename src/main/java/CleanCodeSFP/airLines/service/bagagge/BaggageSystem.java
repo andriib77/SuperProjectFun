@@ -3,10 +3,11 @@ package CleanCodeSFP.airLines.service.bagagge;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 public class BaggageSystem {
     // Карта для отслеживания багажа по уникальному номеру
-    private Map<String, Bag> baggageMap;
+    private Map<UUID, Bag> baggageMap;
 
     public BaggageSystem() {
         this.baggageMap = new HashMap<>();
@@ -14,7 +15,7 @@ public class BaggageSystem {
 
     // Метод для регистрации багажа в системе
     public void registerBag(Bag bag) {
-        baggageMap.put(bag.getTrackingNumber(), bag);
+        baggageMap.put(bag.getTrackingBagNumber(), bag);
     }
 
     // Метод для получения информации о статусе и местоположении багажа по его уникальному номеру

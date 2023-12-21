@@ -11,6 +11,21 @@ public class Bag {
     //TODO number of flight
     //TODO id of airline
 
+    @Override
+    public String toString() {
+        return "Bag{" +
+                "trackingBagNumber=" + trackingBagNumber +
+                ", baggageType='" + baggageType + '\'' +
+                ", weight=" + weight +
+                ", isChecked=" + isChecked +
+                ", isLoaded=" + isLoaded +
+                ", destination='" + destination + '\'' +
+                ", baggageStatus=" + baggageStatus +
+                ", isIssued=" + isIssued +
+                ", route=" + route +
+                '}';
+    }
+
     private UUID trackingBagNumber;
 
     // Тип багажа
@@ -51,10 +66,6 @@ public class Bag {
 
     public UUID getTrackingBagNumber() {
         return trackingBagNumber;
-    }
-
-    public void setTrackingBagNumber(UUID trackingBagNumber) {
-        this.trackingBagNumber = trackingBagNumber;
     }
 
     public String getBaggageType() {
@@ -123,18 +134,4 @@ public class Bag {
         return route;
     }
 
-    @Override
-    public String toString() {
-        return "Bag{" +
-                "trackingBagNumber=" + trackingBagNumber +
-                ", baggageType='" + baggageType + '\'' +
-                ", weight=" + weight +
-                ", isChecked=" + isChecked +
-                ", isLoaded=" + isLoaded +
-                ", destination='" + destination + '\'' +
-                ", baggageStatus=" + baggageStatus +
-                ", isIssued=" + isIssued +
-                ", route=" + route +
-                '}';
-    }
 }

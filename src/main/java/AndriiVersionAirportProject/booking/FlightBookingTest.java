@@ -8,7 +8,6 @@ public class FlightBookingTest {
 
         // Search for flights
         List<Flight> matchingFlights = bookingSystem.searchFlights("2023-12-01", "New York", ClassOfService.ECONOMY);
-        System.out.println(matchingFlights);
 
         // Book a flight and make payment
         if (!matchingFlights.isEmpty()) {

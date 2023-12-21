@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class Passenger {
 
-    private UUID uuid;
+    private UUID idClient;
     private String name;
 
     private String seatNumber;
@@ -13,6 +13,7 @@ public class Passenger {
     private boolean specialMeal;
 
     public Passenger(String name, String seatNumber) {
+        this.idClient = UUID.randomUUID();
         this.name = name;
         this.seatNumber = seatNumber;
         this.isCheckedIn = false;
@@ -22,11 +23,7 @@ public class Passenger {
 
     // Геттеры и сеттеры для атрибутов
     public UUID getUuid() {
-        return uuid;
-    }
-
-    public void setUuid(UUID uuid) {
-        this.uuid = uuid;
+        return idClient;
     }
 
     public String getName() {
@@ -74,7 +71,7 @@ public class Passenger {
     @Override
     public String toString() {
         return "Passenger{" +
-                "uuid=" + uuid +
+                "idClient=" + idClient +
                 ", name='" + name + '\'' +
                 ", seatNumber='" + seatNumber + '\'' +
                 ", isCheckedIn=" + isCheckedIn +

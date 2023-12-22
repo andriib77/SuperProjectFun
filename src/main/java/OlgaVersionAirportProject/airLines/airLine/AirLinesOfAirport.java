@@ -17,8 +17,8 @@ public List<EveryAirLine> airLineList;
 
 
 
-        EveryAirLine Lufthansa = new EveryAirLine( "LH","Lufthansa","Deutchland","Intarnational",1000,
-                ServiceOfAirLine.BOOKING_SYSTEM.PASSENGERS_CARGO_lITERAL_SERVICE,100, TypeOfAircraft.CARGO.ALL_TYPES, TypeOfFlights.ALL_TYPE_OF_FLIGHTS.ALL_TYPE_OF_FLIGHTS  );
+        EveryAirLine Lufthansa = new EveryAirLine( "LH","Lufthansa","Germany","International",1000,
+                ServiceOfAirLine.PASSENGERS_CARGO_lITERAL_SERVICE,100, TypeOfAircraft.ALL_TYPES, TypeOfFlights.ALL_TYPE_OF_FLIGHTS  );
         EveryAirLine AZAL = new EveryAirLine("J2", "AZAL", "Azerbaijan ","International", 500,
                 ServiceOfAirLine.PASSENGERS_CARGO_lITERAL_SERVICE,50,TypeOfAircraft.PASSENGER,TypeOfFlights.CHARTER_PASSENGER_FLIGHT );
 

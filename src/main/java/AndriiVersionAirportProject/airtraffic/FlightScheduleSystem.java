@@ -1,11 +1,8 @@
 package AndriiVersionAirportProject.airtraffic;
 
-import AndriiVersionAirportProject.booking.Flight;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class FlightScheduleSystem {
+/*public class FlightScheduleSystem {
     private List<Flight> flights;
 
     public FlightScheduleSystem() {
@@ -58,4 +55,4 @@ public class FlightScheduleSystem {
 
     //TODO Создать файл текстовой файл с расписанием рейсов
 
-}
+}*/

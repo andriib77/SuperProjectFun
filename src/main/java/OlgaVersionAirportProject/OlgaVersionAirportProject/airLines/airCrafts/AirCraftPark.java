@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airLines.airCrafts;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airCrafts;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,6 +20,8 @@ public class AirCraftPark {
                 categorizedAircrafts.put(type, new ArrayList<>());
             }
         }
+
+
         public void addAircraft (Aircraft aircraft){
             allAircrafts.add(aircraft);
             categorizedAircrafts.get(aircraft.getTypeOfAircraft()).add(aircraft);

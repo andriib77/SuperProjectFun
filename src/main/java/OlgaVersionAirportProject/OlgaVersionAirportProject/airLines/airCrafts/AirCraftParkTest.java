@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airLines.airCrafts;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airCrafts;
 
 import java.util.List;
 

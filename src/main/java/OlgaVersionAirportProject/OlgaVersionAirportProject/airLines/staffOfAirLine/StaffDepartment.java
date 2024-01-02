@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airLines.staffOfAirLine;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.staffOfAirLine;
 
 public enum StaffDepartment { MANAGEMENT, ACCOUNTANT, COMMERCIAL, AIRCRAFT_GROUND_SERVICES,
     AIRLINE_GROUND_SERVICE, PASSENGER_SERVICE, LOAD_SERVICE, SECURITY,FLIGHT_CREW}

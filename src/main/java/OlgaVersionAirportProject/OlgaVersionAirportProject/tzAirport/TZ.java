@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.tzAirport;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.tzAirport;
 /*
 public class TZ {
    /* Цель:

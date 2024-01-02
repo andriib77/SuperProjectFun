@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airLines.staffOfAirLine;/*package Airport.OlgaVersionAirportProject.airLines.staffOfAirLine;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.staffOfAirLine;/*package Airport.OlgaVersionAirportProject.airLines.staffOfAirLine;
 
 public class StaffFlightCompanyTest {
  /*   public static void main(String[] args) {

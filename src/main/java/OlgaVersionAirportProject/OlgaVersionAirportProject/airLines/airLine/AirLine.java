@@ -1,10 +1,13 @@
-package OlgaVersionAirportProject.airLines.airLine;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airLine;
 
-import OlgaVersionAirportProject.airLines.airCrafts.TypeOfAircraft;
-import OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
-import OlgaVersionAirportProject.airLines.service.ServiceOfAirLine;
+import Airport.OlgaVersionAirportProject.airLines.airCrafts.TypeOfAircraft;
+import Airport.OlgaVersionAirportProject.airLines.service.ServiceOfAirLine;
+import Airport.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
 
-public class EveryAirLine {
+import java.util.List;
+
+public class AirLine
+{
     private String idOfAirLine;
     private String nameOfAirLine;
     private String countryOfOrigin;
@@ -15,9 +18,9 @@ public class EveryAirLine {
     private TypeOfAircraft typeOfAircraft;
     private TypeOfFlights typeOfFlights;
 
-    public EveryAirLine(String idOfAirLine, String nameOfAirLine, String countryOfOrigin, String typeOfAirLine, int staffOfAirLine,
-                        ServiceOfAirLine serviceOfAirLine, int airCrafts,
-                        TypeOfAircraft typeOfAircraft, TypeOfFlights typeOfFlights) {
+    public AirLine(String idOfAirLine, String nameOfAirLine, String countryOfOrigin, String typeOfAirLine, int staffOfAirLine,
+                   ServiceOfAirLine serviceOfAirLine, int airCrafts,
+                   TypeOfAircraft typeOfAircraft, TypeOfFlights typeOfFlights) {
         this.idOfAirLine = idOfAirLine;
         this.nameOfAirLine = nameOfAirLine;
         this.countryOfOrigin = countryOfOrigin;
@@ -100,11 +103,10 @@ public class EveryAirLine {
                 "nameOfAirLine='" + nameOfAirLine + '\'' +
                 ", countryOfOrigin='" + countryOfOrigin + '\'' +
                 ", typeOfAirLine='" + typeOfAirLine + '\'' +
-                ", staffOfAirLine=" + staffOfAirLine +
-                ", serviceOfAirLine=" + serviceOfAirLine +
-                ", airCrafts=" + airCrafts +
-                ", typeOfAircraft=" + typeOfAircraft +
-                ", typeOfFlights=" + typeOfFlights +
-                '}';
+                ", staffOfAirLine=" + staffOfAirLine +'\''+
+                ", serviceOfAirLine=" + serviceOfAirLine +'\''+
+                ", airCrafts=" + airCrafts +'\''+
+                ", typeOfAircraft=" + typeOfAircraft +'\''+
+                ", typeOfFlights=" + typeOfFlights +'}';
     }
 }

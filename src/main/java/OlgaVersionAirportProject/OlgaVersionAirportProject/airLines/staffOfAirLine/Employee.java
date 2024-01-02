@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airLines.staffOfAirLine;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.staffOfAirLine;
 
 import java.util.Date;
 

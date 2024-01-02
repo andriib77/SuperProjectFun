@@ -1,4 +1,4 @@
-package OlgaVersionAirportProject.airLines.airCrafts;
+package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airCrafts;
 
 public class Aircraft { //для пассажирских, грузовых, частных и военных самолетов
     private TypeOfAircraft typeOfAircraft;

@@ -1,6 +1,7 @@
 package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.flights;
 
-import Airport.OlgaVersionAirportProject.airLines.airCrafts.Aircraft;
+
+import OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airCrafts.Aircraft;
 
 import java.time.LocalDateTime;
 

@@ -1,6 +1,7 @@
 package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airLine;
 
-import Airport.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
+
+import OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static java.lang.System.*;
 import static java.lang.System.out;
 
 public class All_AirLines {

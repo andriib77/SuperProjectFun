@@ -1,10 +1,9 @@
 package OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airLine;
 
-import Airport.OlgaVersionAirportProject.airLines.airCrafts.TypeOfAircraft;
-import Airport.OlgaVersionAirportProject.airLines.service.ServiceOfAirLine;
-import Airport.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
 
-import java.util.List;
+import OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.airCrafts.TypeOfAircraft;
+import OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.flights.TypeOfFlights;
+import OlgaVersionAirportProject.OlgaVersionAirportProject.airLines.service.ServiceOfAirLine;
 
 public class AirLine
 {
